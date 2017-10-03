@@ -1,0 +1,74 @@
+/*
+	Demo Styles: NOT REQUIRED
+*/
+
+@font-face {
+  font-family: Big-John;
+  src: url(big-john.otf);
+}
+
+@font-face {
+  font-family: Slim-joe;
+  src: url(slim-joe.otf);
+}
+html, body {
+  margin: 0;
+  height: 100%;
+  color: black;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: right;
+}
+
+header {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+
+.full-screen {
+  height: 100%;
+  /* makes panels the entire window height */
+}
+
+.blue {
+  background-color: #3883d8;
+}
+
+.red {
+  background-color: #cf3535;
+}
+
+.orange {
+  background-color: #ea6300;
+}
+
+.grey {
+  background-color: #ebebeb;
+}
+
+.white {
+  background-color: white;
+}
+
+#move-animation {
+  width: 300px;
+  height: 400px;
+  border: 2px solid black;
+  margin: 0px auto;
+  position: fixed;
+  top: 220px;
+}
